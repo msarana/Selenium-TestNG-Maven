@@ -1,0 +1,1 @@
+This is a basic test framework setup for Selenium+TestNG project (MAC).
