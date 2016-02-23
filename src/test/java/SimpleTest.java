@@ -38,7 +38,7 @@ public class SimpleTest {
 
 	@Test
 	public void testGoogleChrome() {
-		System.setProperty("webdriver.chrome.driver", "/Users/Maria/Selenium_Server/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		this.driver = new ChromeDriver();
 		this.driver.get("http://www.google.com");
 		this.driver.quit();
