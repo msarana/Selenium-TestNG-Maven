@@ -1,3 +1,4 @@
+package simple_tests;
 /**
  *   File Name: SimpleTest.java<br>
  *
@@ -36,7 +37,7 @@ public class SimpleTest {
 		Assert.assertEquals(3, 1 + 2);
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void testGoogleChrome() {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		this.driver = new ChromeDriver();
